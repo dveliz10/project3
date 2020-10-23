@@ -63,11 +63,14 @@
     </form>
            </script>
                         
-        <script id="quiz_failed" type="text/x-handlebars-template">
+        <script id="show_results" type="text/x-handlebars-template">
+               {{#if passed}}
+          <h1 class="text-center">Congrats {{name}}!  You passed the quiz! :)</h1>
+    <h2 class="text-center">Your score was: {{correct}}/{{total}} ({{score}})</h2>
+                {{else}}           
     <h1 class="text-center">Sorry {{name}},  You failed the quiz! :(</h1>
     <h2 class="text-center">Your score was: {{correct}}/{{total}} ({{score}})</h2>
-    <form id="home" class="text-center" onsubmit="reload()">
-        <input id="return" type="Submit" value="Go Home">
+    <button type="submit" class="btn btn-primary" onclick = "loadQuiz()">Return to Top</button>
                         </script>
           
     
