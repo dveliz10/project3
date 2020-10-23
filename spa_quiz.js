@@ -1,6 +1,6 @@
 document.addEvent Listener('DOMContentLoaded', () => {
   
-  widget_html = render_view("#post_view2");
+  widget_html = render_view("#enter_view2");
   
   document.querySelector(#quiz_widget").innerHTML = widget_html;
         });
