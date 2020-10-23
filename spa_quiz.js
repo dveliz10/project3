@@ -4,8 +4,16 @@ document.addEvent Listener('DOMContentLoaded', () => {
   
   document.querySelector(#quiz_widget").innerHTML = widget_html;
         });
+  const create_user_view = async(user_idx) => {
+
+  const data = await fetch"https://randomuser.me/api/?results=1")
+  const model = await data.json()
+  const html_element = render_widget(model,'#userview')
+
+  document.querySelector("#quiz_widget").innerHTML = html_element;
+}
   
-const render_view = (view) => {
+const render_view = (model, view) => {
 
   template_source = document.querySelector(view.innerHTML)
 
