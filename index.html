@@ -1,6 +1,8 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <link rel ="stylesheet: href="https://maxcdn.com/bootsrap/4.3.1/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <link rel ="stylesheet": href="https://maxcdn.com/bootsrap/4.3.1/css/bootstrap.min.css">
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js></script>
      <script src="https://cdnjs.cloudfare.com/ajax/libs/popper.js/1.14.7/umb/popper.min.js"></script>
     <script src="https://maxcdn.bootsrapcdn.com/bootstrap/4.3.1/js/bootsrap.min.js"></scrpit>
@@ -9,22 +11,64 @@
       
       <link rel="stylesheet" href="spa_style.css">
       <script src="spa_quiz.js"></script>
+                               <title>SPA Quiz Application</title>
   </head>
     <body>
+      
       <div class="container h-100">
         <div class="row align-items-center h-100">
           <div class="col-6 mx-auto">
-            
-            <div id="quiz_widget" class="align-items-center">
-            </div>
+                    <div id="view-widget">
+                 </div>
+             </div>
           </div>
         </div>
-      </div>
-      <script id="enter_view2" type="text/x-handlebars-template">
-      <h4></h4>
+     </body>       
+            <div id="quiz_widget" class="text-center">
+                <div id-"scoreboard_widget">
+          </div>
+      </div>      
+         <script id="quiz_start" type="text/x-handlebars-template">
+            <form>
+      <h4>Start Quiz</h4>
       <div class="container">
        <div class="row">
         <div class="col">
-          <div class "card" style="width:200px">
-    </body>
+          </div>
+               </div>
+                      <label for="name">Enter Name:</label>
+                      <input id="name" autocomplete="off" placeholder="Name" type="text" required>
+         <label for="quiz1">Quiz 1</label>
+        <input type="radio" id="quiz1" name="quiz" value="quiz1" required>
+        <label for="quiz2">Quiz 2</label>
+        <input type="radio" id="quiz2" name="quiz" value="quiz2" required>
+        <input id="start-quiz" type="submit" value="Start!">
+                                                                                            
+                          </form>
+                          </script>
+      <script id="show_quiz" type="text/x-handlebars-template">
+      <form id="question">
+        <label for="question1">{{question}}</label>
+        <div class="form-group">
+            {{#each choices}}
+            <div class="form-check">
+                <input id="form-check-input" type="radio" name="exampleRadios" value="{{this}}">
+                <label class="form-check-label" for="exampleRadios1">
+                {{this}}
+                </label>
+              </div>
+            {{/each}}
+        </div>
+          <button type="submit" class="btn btn-primary" onclick = "checkAnswer(event)">Submit</button>
+    </form>
+           </script>
+                        
+        <script id="quiz_failed" type="text/x-handlebars-template">
+    <h1 class="text-center">Sorry {{name}},  You failed the quiz! :(</h1>
+    <h2 class="text-center">Your score was: {{correct}}/{{total}} ({{score}})</h2>
+    <form id="home" class="text-center" onsubmit="reload()">
+        <input id="return" type="Submit" value="Go Home">
+                        </script>
+          
+    
     </html>
