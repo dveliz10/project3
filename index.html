@@ -46,21 +46,28 @@
                                                                                             
                           </form>
                           </script>
-      <script id="show_quiz" type="text/x-handlebars-template">
-      <form id="question">
-        <label for="question1">{{question}}</label>
-        <div class="form-group">
-            {{#each choices}}
-            <div class="form-check">
-                <input id="form-check-input" type="radio" name="exampleRadios" value="{{this}}">
-                <label class="form-check-label" for="exampleRadios1">
-                {{this}}
-                </label>
-              </div>
-            {{/each}}
-        </div>
-          <button type="submit" class="btn btn-primary" onclick = "checkAnswer(event)">Submit</button>
+      <script id="show_quizquestions" type="text/x-handlebars-template">
+     <h2 class="text-center">Question: {{this.current_question}}</h2>
+    <h3 class="text-center">{{question}}</h3>
+    <form id="t-answer-form" onsubmit="check_answer('MC'); return false;">
+        <p>Select all that apply:</p>
+        <input id="choice1" type="checkbox" name="choice" value="1">
+        <label for="choice1">{{choice1}}</label>
+        <br>
+        <input id="choice2" type="checkbox" name="choice" value="2">
+        <label for="choice2">{{choice2}}</label>
+        <br>
+        <input id="choice3" type="checkbox" name="choice" value="3">
+        <label for="choice3">{{choice3}}</label>
+        <br>
+        <input id="choice4" type="checkbox" name="choice" value="4">
+        <label for="choice4">{{choice4}}</label>
+        <br>
+        <button type="submit" class="btn btn-primary" onclick = "checkAnswer(event)">Submit</button>
     </form>
+    <div id="result" class="text-center">
+    </div>
+          
            </script>
                         
         <script id="show_results" type="text/x-handlebars-template">
