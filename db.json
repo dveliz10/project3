@@ -1,1 +1,30 @@
-
+{
+   "quiz_1" : [
+       {
+          "question" : "Where is Albany?",
+          "answer" : "New York",
+          "choices" : ["New York","New Jersey","Florida","California"],
+          "feedback" : "Correct answer is New York."
+       },
+       {
+           "question" : "Where is Trenton?",
+           "answer" : "New Jersey",
+           "choices" : ["New York","New Jersey","Florida","California"],
+           "feedback" : "Correct answer is tens New Jersey."
+        }
+   ],
+   "quiz_two" : [
+       {
+          "question" : "Where is Dallas?",
+          "answer" : "Texas",
+          "choices" : ["New York","New Jersey","Florida","California"],
+          "feedback" : "Correct answer is Texas."
+       },
+       {
+           "question" : "Where is Los Angeles?",
+           "answer" : "California",
+           "choices" : ["New York","New Jersey","Florida","California"],
+           "feedback" : "Correct answer is California."
+        }
+   ]
+}
