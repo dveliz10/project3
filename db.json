@@ -26,5 +26,11 @@
            "choices" : ["New York","New Jersey","Florida","California"],
            "feedback" : "Correct answer is California."
         }
+      {
+          "question" : "Where is San Fransico?",
+          "answer" : "California",
+          "choices" : ["New York","New Jersey","Florida","California"],
+          "feedback" : "Correct answer is California."
+}
    ]
 }
