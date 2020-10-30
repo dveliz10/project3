@@ -2,6 +2,7 @@ async function getdata(){
         const response = await fetch('https://my-json-server.typicode.com/dveliz10/project3/');
         const data = await response.json();
         console.log(data);"
+}
 var quizzes;
 
 fetch(questionURL).then(function(res) {
