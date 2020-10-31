@@ -63,52 +63,52 @@
        ],
    "quiz_two" : [
        {
-          "question" : "?",
-          "answer" : "",
-          "choices" : ["","","",""],
-          "feedback" : "Correct answer is ."
+          "question" : "What is 1+1?",
+          "answer" : "2",
+          "choices" : ["2","3","4","5"],
+          "feedback" : "Correct answer is 2."
        },
        {
-           "question" : "?",
-           "answer" : "",
-           "choices" : ["","","",""],
-          "feedback" : "Correct answer is ."
+           "question" : "What is 2+2?",
+           "answer" : "4",
+           "choices" : ["1","2","3","4"],
+          "feedback" : "Correct answer is 4."
         },
        {
-           "question" : "?",
-           "answer" : "",
-           "choices" : ["","","",""],
-           "feedback" : "Correct answer is ."
+           "question" : "What is 3+3?",
+           "answer" : "6",
+           "choices" : ["2","4","6","8"],
+           "feedback" : "Correct answer is 6."
   
         },
       {
-          "question" : "?",
-          "answer" : "",
-          "choices" : ["","","",""],
-          "feedback" : "Correct answer is ."
+          "question" : "What is 4+4?",
+          "answer" : "8",
+          "choices" : ["2","4","6","8"],
+          "feedback" : "Correct answer is 8."
       },
       {
-          "question" : "?",
-          "answer" : "",
-          "choices" : ["","","",""],
-          "feedback" : "Correct answer is ."
+          "question" : "What is 5+5?",
+          "answer" : "10",
+          "choices" : ["5","10","15","20"],
+          "feedback" : "Correct answer is 10."
        },
        {
-           "question" : "?",
-           "answer" : "",
-           "choices" : ["","","",""],
-           "feedback" : "Correct answer is ."
+           "question" : "What is 6+6?",
+           "answer" : "12",
+           "choices" : ["3","6","9","12"],
+           "feedback" : "Correct answer is 12."
         },
         {
-          "question" : "?",
-          "answer" : "",
-          "choices" : ["","","",""],
+          "question" : "What is 7+7?",
+          "answer" : "14",
+          "choices" : ["7","14","21","28"],
           "feedback" : "Correct answer is ."
         },
        {
-           "question" : "?",
-           "answer" : "",
-           "choices" : ["","","",""],
-           "feedback" : "Correct answer is ."
+           "question" : "What is 8+8?",
+           "answer" : "16",
+           "choices" : ["8","16","24","32"],
+           "feedback" : "Correct answer is 16."
    }
 ]
