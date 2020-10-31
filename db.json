@@ -11,26 +11,104 @@
            "answer" : "New Jersey",
            "choices" : ["New York","New Jersey","Florida","California"],
            "feedback" : "Correct answer is tens New Jersey."
-        }
-   ],
-   "quiz_two" : [
-       {
+        },
+        {
           "question" : "Where is Dallas?",
           "answer" : "Texas",
           "choices" : ["New York","New Jersey","Florida","California"],
           "feedback" : "Correct answer is Texas."
-       },
+        },
        {
            "question" : "Where is Los Angeles?",
            "answer" : "California",
            "choices" : ["New York","New Jersey","Florida","California"],
            "feedback" : "Correct answer is California."
-        }
+       }
       {
-          "question" : "Where is San Fransico?",
-          "answer" : "California",
-          "choices" : ["New York","New Jersey","Florida","California"],
-          "feedback" : "Correct answer is California."
-}
-   ]
-}
+          "question" : "What country is Paris in?",
+          "answer" : "France",
+          "choices" : ["France","Mexico","Italy","Russia"],
+          "feedback" : "Correct answer is France."
+       },
+       {
+           "question" : "What country is Guadalajara in?",
+           "answer" : "Mexico",
+           "choices" : ["France","Mexico","Italy","Russia"],
+           "feedback" : "Correct answer is Mexico."
+        },
+        {
+          "question" : "What country is Rome in?",
+          "answer" : "Italy",
+          "choices" : ["France","Mexico","Italy","Russia"],
+          "feedback" : "Correct answer is Italy."
+        },
+       {
+           "question" : "What country is Moscow in?",
+           "answer" : "Russia",
+           "choices" : ["France","Mexico","Italy","Russia"],
+           "feedback" : "Correct answer is Russia."
+       },
+      {
+          "question" : "What country is Barcelona in?",
+          "answer" : "Spain",
+          "choices" : ["Spain","Mexico","Colombia","Chile"],
+          "feedback" : "Correct answer is Italy."
+        },
+       {
+           "question" : "What country is Bogota in?",
+           "answer" : "Colombia",
+           "choices" : ["Spain","Mexico","Colombia","Chile"],
+           "feedback" : "Correct answer is Russia."
+       }     
+       ],
+   "quiz_two" : [
+       {
+          "question" : "?",
+          "answer" : "",
+          "choices" : ["","","",""],
+          "feedback" : "Correct answer is ."
+       },
+       {
+           "question" : "?",
+           "answer" : "",
+           "choices" : ["","","",""],
+          "feedback" : "Correct answer is ."
+        },
+       {
+           "question" : "?",
+           "answer" : "",
+           "choices" : ["","","",""],
+           "feedback" : "Correct answer is ."
+  
+        },
+      {
+          "question" : "?",
+          "answer" : "",
+          "choices" : ["","","",""],
+          "feedback" : "Correct answer is ."
+      },
+      {
+          "question" : "?",
+          "answer" : "",
+          "choices" : ["","","",""],
+          "feedback" : "Correct answer is ."
+       },
+       {
+           "question" : "?",
+           "answer" : "",
+           "choices" : ["","","",""],
+           "feedback" : "Correct answer is ."
+        },
+        {
+          "question" : "?",
+          "answer" : "",
+          "choices" : ["","","",""],
+          "feedback" : "Correct answer is ."
+        },
+       {
+           "question" : "?",
+           "answer" : "",
+           "choices" : ["","","",""],
+           "feedback" : "Correct answer is ."
+   }
+]
